@@ -2,9 +2,12 @@
 
 body {
     background-color: black;
+   
 }
 
 main {
+    margin: auto;
+    width: 800px;
     background-color: white;
     border-radius: 20px;
     padding: 20px;
@@ -12,14 +15,48 @@ main {
 
 h1{
     text-align: center;
-    color: rgb(56, 87, 87);
+    color: rgb(42, 56, 56);
     background-color: rgb(161, 161, 115);
     border-radius: 22px;
+    
 } 
 
 
-.caixa {
+.primeira-caixa {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px; /* veja que ele prioriza de cima para baixo*/
+    font-size: 16px; /* veja que por causa das classes, ele prioriza de cima para baixo*/
+    background-color: rgb(185, 18, 18);
+    border-radius: 22px;
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 2px solid black;
+
 }
 
+.segunda-caixa {
+    background-color: rgb(134, 134, 195);
+    border-radius: 22px;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-left: 3px solid black
+
+}
+
+.terceira-caixa {
+    background-color: rgb(156, 156, 29);
+    border-radius: 22px;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-right: 3px solid black;
+}
+
+.primeiro-paragrafo {
+    background-color: rgb(176, 74, 173);
+    border-radius: 22px;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-bottom: 3px solid black;
+}
